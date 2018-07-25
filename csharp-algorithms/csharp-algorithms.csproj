@@ -6,4 +6,30 @@
     <RootNamespace>csharp_algorithms</RootNamespace>
   </PropertyGroup>
 
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <Prefer32Bit>false</Prefer32Bit>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+    <Optimize>true</Optimize>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Algorithms\Search\" />
+    <Folder Include="Algorithms\Sets\" />
+    <Folder Include="Algorithms\Tree\" />
+    <Folder Include="Algorithms\String\" />
+    <Folder Include="Algorithms\Sorting\" />
+    <Folder Include="Algorithms\Uncategorized\" />
+    <Folder Include="Algorithms\Math\" />
+    <Folder Include="Algorithms\Graph\" />
+    <Folder Include="DataStructures\LinkedList\" />
+    <Folder Include="DataStructures\Queue\" />
+    <Folder Include="DataStructures\PriorityQueue\" />
+    <Folder Include="DataStructures\Heap\" />
+    <Folder Include="DataStructures\Stack\" />
+    <Folder Include="DataStructures\HashTable\" />
+    <Folder Include="DataStructures\Tree\" />
+    <Folder Include="DataStructures\Trie\" />
+    <Folder Include="Helpers\" />
+  </ItemGroup>
+
 </Project>
